@@ -6,19 +6,26 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
-    "test": "vitest"
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "express-session": "^1.17.3",
+    "input": "^0.0.1",
+    "telegram": "^1.11.1"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "@types/express": "^5.0.2",
+    "@types/express-session": "^1.17.7",
     "@types/node": "^22.15.30",
+    "@types/supertest": "^2.0.16",
     "supertest": "^7.1.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
